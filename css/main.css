@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Inter";
+  src: url("Inter.ttf");
+}
+
+* {
+  color: #241f31;
+  font-family: "Inter", sans-serif;
+
+  transition: 0.25s ease;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+
+  margin: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+p {
+  text-align: left;
+}
+
+button {
+  background-color: #deddda;
+  border: none;
+  border-radius: 24px;
+
+  cursor: pointer;
+
+  padding: 2.5rem;
+}
+
+button:hover {
+  background-color: #c0bfbc;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    color: #ffffff;
+  }
+
+  body {
+    background-color: #241f31;
+  }
+
+  button {
+    background-color: #3d3846;
+  }
+
+  button:hover {
+    background-color: #5e5c64;
+  }
+}
